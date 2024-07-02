@@ -2,5 +2,7 @@
 user = int(input("Enter the size of the pattern:"))
 i = 0
 while i < user:
-    print("*" * user)
-    i= i +1
+    for row in range(user):
+        print ("*", end ="")
+    print()
+    i = i + 1
