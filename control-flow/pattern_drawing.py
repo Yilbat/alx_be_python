@@ -1,5 +1,5 @@
 
-user = int(input("Enter the size of the pattern:"))
+user = int(input("Enter the size of the pattern: "))
 i = 0
 while i < user:
     for row in range(user):
