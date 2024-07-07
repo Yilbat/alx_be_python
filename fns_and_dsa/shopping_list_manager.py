@@ -10,8 +10,7 @@ def main():
     shopping_list = []
 
     while True:
-        for item in shopping_list:
-          print(item)
+    
         display_menu()
 
 
