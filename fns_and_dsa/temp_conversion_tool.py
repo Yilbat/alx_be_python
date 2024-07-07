@@ -33,7 +33,7 @@ def main():
                 unit_symbol = "°F"
                 converted_unit_symbol = "°C"
             else:
-                raise ValueError("Invalid unit. Please enter 'C' or 'F'.")
+                raise ValueError("nvalid temperature. Please enter a numeric value.")
 
             print(
                 f"{temperature:.1f}{unit_symbol} is {converted_temp:.1f}{converted_unit_symbol}")
