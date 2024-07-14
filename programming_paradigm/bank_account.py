@@ -17,3 +17,11 @@ class BankAccount:
         current_balance = self.account_balance
         print(f"Current Balance: ${current_balance:.2f}")
 
+
+# TG = BankAccount(20000)
+
+# print(TG.display_balance())
+# # TG.deposit(2000)
+# # print(TG.display_balance())
+# # TG.withdraw(20000)
+# # print(TG.display_balance())
