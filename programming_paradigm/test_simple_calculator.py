@@ -9,9 +9,9 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add(2,3),5)
     def test_subtraction(self):
         self.assertEqual(self.calc.subtract(2,3),5)
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(2,3),5)
-    def test_divide(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(2,3),5)
         self.assertEqual(self.calc.divide(2,0),ZeroDivisionError)
 
