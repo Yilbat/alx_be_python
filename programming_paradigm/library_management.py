@@ -40,3 +40,9 @@ class Library:
         available_books = [book for book in self._books if book.is_available()]
         for book in available_books:
             print(f"{book.title} by {book.author}")
+
+
+book1 = Book("Animal farm", "orwell")
+lib = Library()
+lib.add_book(book1)
+lib.list_available_books()
